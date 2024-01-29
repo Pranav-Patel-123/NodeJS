@@ -1,0 +1,50 @@
+.about{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.about-text{
+    padding: 5px;
+    width: 50%;
+    height: 50%;
+}
+
+.about-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    padding: 15px;
+}
+
+.about-des1, .about-des2{
+    text-align: justify;
+    font-size: 18px;
+    padding: 30px;
+    color: black;
+}
+
+.image{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.logo_email{
+    text-align: center;
+    padding-bottom: 50px;
+    position: relative;
+    color: gray;
+}
+
+.logo-email p{
+    color: gray;
+    padding: 5px;
+}
